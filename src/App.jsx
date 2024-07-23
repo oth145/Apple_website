@@ -6,6 +6,8 @@ import * as Sentry from '@sentry/react';
 import Features from './components/Features';
 import HowitWorks from './components/HowitWorks';
 import Footer from './components/Footer';
+// import { SpeedInsights } from '@vercel/speed-insights/next';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 function App() {
  
   return (
@@ -17,6 +19,8 @@ function App() {
      <Features />
      <HowitWorks />
     <Footer />
+    <SpeedInsights />
+
     </main>
   )
 }
